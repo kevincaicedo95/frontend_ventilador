@@ -8,20 +8,28 @@
                     </font>
                 </font>
             </a>
-            <a class="nav-link active" href="#">
+<a href="#" class="nav-link active" data-toggle="dropdown">
                 <font style="vertical-aling: inherit;">
                     <font style="vertical-aling: inherit;">
                         Registro
                     </font>
-                </font>
-          </a>
-          <a class="nav-link active" href="#">
+                </font> 
+            </a>
+            <ul class="dropdown-menu">
+            <li><a href="#">Insumos</a></li>
+            <li><a href="#">Proceso manta</a></li>
+            </ul>
+            <a href="#" class="nav-link active" data-toggle="dropdown">
                 <font style="vertical-aling: inherit;">
                     <font style="vertical-aling: inherit;">
                         Consulta
                     </font>
-                </font>
-          </a>
+                </font> 
+            </a>
+            <ul class="dropdown-menu">
+            <li><a href="#">Manta</a></li>
+            <li><a href="#">Empleado</a></li>
+            </ul>
           <a class="nav-link active" href="/">
                 <font style="vertical-aling: inherit;">
                     <font style="vertical-aling: inherit;">

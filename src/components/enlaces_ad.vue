@@ -23,17 +23,20 @@
                 </font> 
             </a>
             <ul class="dropdown-menu">
-            <li><a href="#">Acción #1</a></li>
-            <li><a href="#">Acción #2</a></li>
-            <li><a href="#">Acción #3</a></li>
+            <li><a href="#">Insumos</a></li>
+            <li><a href="#">Proceso manta</a></li>
             </ul>
-            <a class="nav-link active" href="#">
+            <a href="#" class="nav-link active" data-toggle="dropdown">
                 <font style="vertical-aling: inherit;">
                     <font style="vertical-aling: inherit;">
                         Consulta
                     </font>
-                </font>
+                </font> 
             </a>
+            <ul class="dropdown-menu">
+            <li><a href="#">Manta</a></li>
+            <li><a href="#">Empleado</a></li>
+            </ul>
           <a class="nav-link active" href="/">
                 <font style="vertical-aling: inherit;">
                     <font style="vertical-aling: inherit;">
@@ -58,6 +61,7 @@ nav.nav.nav-underline{
 }
 a{
     font-size:90%;
+    color: rgb(6, 116, 2);
 }
 a.nav-link.active{
 padding-left: 5%;
